@@ -18,6 +18,8 @@
 # misc
 .DS_Store
 *.pem
+/.next/app-build-manifest.json
+/.next/build-manifest.json
 
 # debug
 npm-debug.log*
