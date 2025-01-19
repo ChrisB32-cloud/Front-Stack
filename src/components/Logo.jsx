@@ -1,6 +1,6 @@
 export function Logo(props) {
   return (
-    <svg aria-hidden="true" viewBox="0 0 183 48" {...props}>
+    <svg aria-hidden="true" viewBox="0 0 50 48" {...props}>
       <path
         fill="#3B82F6"
         fillRule="evenodd"

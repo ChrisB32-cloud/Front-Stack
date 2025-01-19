@@ -1,20 +1,21 @@
-import { DM_Sans, Inter } from 'next/font/google'
+// import { DM_Sans, Inter } from 'next/font/google'
 import clsx from 'clsx'
 
 import '@/styles/tailwind.css'
 
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-inter',
-})
+// const inter = Inter({
+//   subsets: ['latin'],
+//   display: 'swap',
+//   variable: '--font-inter',
+// })
 
-const dmSans = DM_Sans({
-  subsets: ['latin'],
-  weight: ['400', '500', '700'],
-  display: 'swap',
-  variable: '--font-dm-sans',
-})
+// const dmSans = DM_Sans({
+//   subsets: ['latin'],
+//   weight: ['400', '500', '700'],
+//   display: 'swap',
+//   variable: '--font-dm-sans',
+//   fallback: ['Arial', 'sans-serif'],
+// })
 
 export const metadata = {
   title: {
@@ -31,8 +32,8 @@ export default function RootLayout({ children }) {
       lang="en"
       className={clsx(
         'h-full bg-white antialiased',
-        inter.variable,
-        dmSans.variable,
+        // inter.variable,
+        // dmSans.variable,
       )}
     >
       <body className="flex min-h-full">

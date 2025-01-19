@@ -25,8 +25,9 @@ module.exports = {
         '5xl': '2.5rem',
       },
       fontFamily: {
-        sans: 'var(--font-inter)',
-        display: 'var(--font-dm-sans)',
+        sans: 'sans-serif',
+        // sans: 'var(--font-inter)',
+        // display: 'var(--font-dm-sans)',
       },
       maxWidth: {
         '2xl': '40rem',
